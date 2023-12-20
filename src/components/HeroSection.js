@@ -30,11 +30,7 @@ export default function HeroSection() {
             </Button>
           </Col>
           <Col lg={6} sm={12} md={12}>
-            <Image
-              style={{ width: "500px", height: "450px" }}
-              src={image}
-              rounded
-            />
+            <Image src={image} rounded className="girl" />
           </Col>
         </Row>
       </Container>

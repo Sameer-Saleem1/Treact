@@ -220,7 +220,7 @@ function Tour() {
       <Container className="mt-5">
         <Row>
           <Col lg={6} sm={12} style={{ paddingLeft: "2rem" }}>
-            <Image src={hotel} rounded width={"450px"} />
+            <Image src={hotel} rounded className="hotel" />
           </Col>
           <Col lg={6} sm={12} className="tour-left ">
             <h1>We have the best service. </h1>
@@ -232,87 +232,21 @@ function Tour() {
             </h4>
             <Container className="g-0" style={{ marginTop: "5rem" }}>
               <Row>
-                <Col lg={6} sm={6} style={{ marginBottom: "2rem" }}>
-                  <h3
-                    style={{
-                      fontSize: "2rem",
-                      fontWeight: "700",
-                      color: "#6415ff",
-                    }}
-                  >
-                    192
-                  </h3>
-                  <h3
-                    style={{
-                      fontSize: "1.5rem",
-                      fontWeight: "700",
-                      color: "#606060",
-                    }}
-                  >
-                    Countries
-                  </h3>
+                <Col lg={6} sm={6} className="hotel-specs">
+                  <h3>192</h3>
+                  <h4>Countries</h4>
                 </Col>
-                <Col lg={6} sm={6}>
-                  <h3
-                    style={{
-                      fontSize: "2rem",
-                      fontWeight: "700",
-                      color: "#6415ff",
-                    }}
-                  >
-                    479
-                  </h3>
-                  <h3
-                    style={{
-                      fontSize: "1.5rem",
-                      fontWeight: "700",
-                      color: "#606060",
-                    }}
-                  >
-                    Hotels
-                  </h3>
+                <Col lg={6} sm={6} className="hotel-specs">
+                  <h3>479</h3>
+                  <h4>Hotels</h4>
                 </Col>
-              </Row>
-              <Row>
-                <Col lg={6} sm={6}>
-                  <h3
-                    style={{
-                      fontSize: "2rem",
-                      fontWeight: "700",
-                      color: "#6415ff",
-                    }}
-                  >
-                    2093
-                  </h3>
-                  <h3
-                    style={{
-                      fontSize: "1.5rem",
-                      fontWeight: "700",
-                      color: "#606060",
-                    }}
-                  >
-                    Rooms
-                  </h3>
+                <Col lg={6} sm={6} className="hotel-specs">
+                  <h3>2093</h3>
+                  <h4>Rooms</h4>
                 </Col>
-                <Col lg={6} sm={6}>
-                  <h3
-                    style={{
-                      fontSize: "2rem",
-                      fontWeight: "700",
-                      color: "#6415ff",
-                    }}
-                  >
-                    10347
-                  </h3>
-                  <h3
-                    style={{
-                      fontSize: "1.5rem",
-                      fontWeight: "700",
-                      color: "#606060",
-                    }}
-                  >
-                    Workers
-                  </h3>
+                <Col lg={6} sm={6} className="hotel-specs">
+                  <h3>10347</h3>
+                  <h4>Workers</h4>
                 </Col>
               </Row>
             </Container>

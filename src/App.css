@@ -1,14 +1,101 @@
+:root {
+  --h1-color: #243e63;
+}
+
 .Navbar-title {
   text-decoration: none;
-  color: black;
+  color: var(--h1-color);
+}
+
+.Navbar-title h2 {
+  font-size: 25px;
+  font-weight: 900;
 }
 
 .Navbar-element {
   text-decoration: none !important;
-  color: black;
+  color: var(--h1-color);
   margin-left: 2rem;
 }
 
 .Navbar-element h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.container,
+.container-lg,
+.container-md,
+.container-sm {
+  max-width: 100% !important;
+}
+.left-col {
+  padding-left: 2.5rem !important;
+}
+.left-col h1 {
+  font-size: 2.5rem;
+  color: var(--h1-color);
+  font-weight: 700;
+}
+
+.left-col h3 {
+  margin-top: 1.5rem;
+  font-size: 16px;
+  line-height: 2rem;
   font-weight: 400;
+  color: #6e7171;
+}
+.btn {
+  width: 8rem;
+  height: 3rem;
+  margin: 1rem;
+  border-radius: 2px !important;
+  border: transparent !important;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 16rem;
+  text-align: center !important;
+  border: transparent !important;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card p {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.tour-left {
+  text-align: left;
+}
+
+.tour-left h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--h1-color);
+}
+
+.tour-left h4 {
+  margin-top: 1rem;
+  word-spacing: 2px;
+  font-size: 15px;
+  color: #a8a8a8;
+  margin-left: 4px;
+}
+
+.tour-left p {
+  margin-top: 1rem;
+  font-size: 15px;
+  color: #6415ff;
+  font-weight: 700;
+  margin-left: 4px;
 }
